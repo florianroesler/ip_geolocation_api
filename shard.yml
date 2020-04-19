@@ -1,0 +1,16 @@
+name: ip_geolocation_api
+version: 0.1.0
+authors:
+  - Florian Rösler <florian.roesler@gmail.com>
+
+dependencies:
+  ip_geolocation:
+    github: florianroesler/ip_geolocation
+    branch: master
+  kemal:
+    github: kemalcr/kemal
+  sentry:
+    github: Acciaiodigitale/sentry
+    branch: master
+
+license: MIT
