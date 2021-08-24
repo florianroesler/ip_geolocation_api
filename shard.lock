@@ -1,26 +1,26 @@
-version: 1.0
+version: 2.0
 shards:
   exception_page:
-    github: crystal-loot/exception_page
-    version: 0.1.4
+    git: https://github.com/crystal-loot/exception_page.git
+    version: 0.1.5
 
   ip_geolocation:
-    github: florianroesler/ip_geolocation
-    commit: 88cf9e158cba29d7531c6e2fc6848d928ffe03d3
+    git: https://github.com/florianroesler/ip_geolocation.git
+    version: 0.1.0+git.commit.88cf9e158cba29d7531c6e2fc6848d928ffe03d3
 
   kemal:
-    github: kemalcr/kemal
-    version: 0.26.1
+    git: https://github.com/kemalcr/kemal.git
+    version: 1.0.0
 
   kilt:
-    github: jeromegn/kilt
-    version: 0.4.0
+    git: https://github.com/jeromegn/kilt.git
+    version: 0.4.1
 
   radix:
-    github: luislavena/radix
-    version: 0.3.9
+    git: https://github.com/luislavena/radix.git
+    version: 0.4.1
 
   sentry:
-    github: Acciaiodigitale/sentry
-    commit: 5ba3ace2a1c2ab8ea55cd4a89a663bec4f21f75a
+    git: https://github.com/samueleaton/sentry.git
+    version: 0.3.2+git.commit.cd86128f94567594da9ddff78cc428c697754d88
 

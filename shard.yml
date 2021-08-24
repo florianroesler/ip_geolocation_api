@@ -10,7 +10,7 @@ dependencies:
   kemal:
     github: kemalcr/kemal
   sentry:
-    github: Acciaiodigitale/sentry
+    github: samueleaton/sentry
     branch: master
 
 license: MIT

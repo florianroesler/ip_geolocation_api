@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 shards check
 if [ "$?" != 0 ]; then
   echo "Installing Shards"
