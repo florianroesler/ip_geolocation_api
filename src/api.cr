@@ -6,7 +6,8 @@ require "ip_geolocation"
 IPGeolocation::Log.level = Log::Severity::Debug
 
 lookup = IPGeolocation::Lookup.new
-lookup.build_index
+ip_source_path = "lib/ip_geolocation/" + IPGeolocation::Lookup::DEFAULT_INPUT_PATH
+lookup.build_index(ip_source_path)
 
 before_all do |env|
 	env.response.content_type = "application/json"

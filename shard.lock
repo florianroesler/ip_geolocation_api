@@ -6,7 +6,7 @@ shards:
 
   ip_geolocation:
     git: https://github.com/florianroesler/ip_geolocation.git
-    version: 0.1.0+git.commit.88cf9e158cba29d7531c6e2fc6848d928ffe03d3
+    version: 1.0.0+git.commit.c97587a0209ea2365e00a1a99c7489d0411155f3
 
   kemal:
     git: https://github.com/kemalcr/kemal.git
