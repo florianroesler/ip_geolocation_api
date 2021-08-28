@@ -2,8 +2,10 @@ require "ip_geolocation"
 IPGeolocation::Log.level = Log::Severity::Debug
 
 class Locater
-  ip_source_path = "lib/ip_geolocation/" + IPGeolocation::Lookup::DEFAULT_INPUT_PATH
-  ip_source_path = "lib/ip_geolocation/spec/fixtures/excerpt.zip"
+  ip_source_path = ENV.fetch(
+    "IP_DATA_PATH",
+    "lib/ip_geolocation/" + IPGeolocation::Lookup::DEFAULT_INPUT_PATH
+  )
 
   LOOKUP = IPGeolocation::Lookup.new
   LOOKUP.build_index(ip_source_path)

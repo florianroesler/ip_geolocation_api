@@ -9,6 +9,8 @@ dependencies:
     branch: master
   kemal:
     github: kemalcr/kemal
+  spec-kemal:
+    github: kemalcr/spec-kemal
   sentry:
     github: samueleaton/sentry
     branch: master
